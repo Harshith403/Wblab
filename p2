@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Time Table </title>
+            <style>
+               table{
+                border-collapse:collapse;
+                width:70%;
+               }
+               th,td{
+                border:1px solid black;
+                padding: 5px;
+                text-align:center;
+               }
+               th{
+                background: lightgrey;
+               }
+               .lab{
+                background: lightblue;
+               }
+               .elective{
+                background: lightgreen;
+               }
+               tfoot{
+                background: lightgrey;
+               }
+               </style>
+               </title>
+            </head>
+            <body>
+                <center><h2>Time Table</h2></center>
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Day/Time</th>
+                            <th>9-10</th>
+                            <th>10-11</th>
+                            <th>11-12</th>
+                            <th>lunch</th>
+                            <th>1-2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mon</td>
+                            <td>Math</td>
+                            <td>SEPM</td>
+                            <td class="lab">WT Lab</td>
+                            <td rowspan="5">Break</td>
+                            <td class ="elective">Elective </td>
+                            </tr>
+                            <tr>
+                                <td>Tue</td>
+                                <td class="elective">Elective</td>
+                                <td>CN</td>
+                                <td class="lab">CN Lab</td>
+                                <td>AI</td>
+                            </tr>
+                            <tr>
+                                <td>Wed</td>
+                                <td>RM</td>
+                                <td class="lab">WT Lab</td>
+                                <td>CN</td>
+                                <td class="elective">Elective</td>
+                            </tr>
+                            <tr>
+                                <td>Thu</td>
+                                <td>PE</td>
+                                <td>CN</td>
+                                <td class="elective">Elective</td>
+                                <td>RM</td>
+                            </tr>
+                            <tr>
+                                <td>Fri</td>
+                                <td class="lab">CN Lab</td>
+                                <td>Maths</td>
+                                <td>CN</td>
+                                <td class="elective">Elective</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="6">End of Time table</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </body>
+</html>
+
+                   
