@@ -1,0 +1,22 @@
+<?php
+$f="counter.txt";
+if(!file_exists($f))file_put_contents($f,0);
+$c=(int)file_get_contents($f)+1;
+file_put_contents($f,$c);
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"><title>Visitor Counter</title>
+<style>
+body{font-family:Arial;text-align:center;background:#f5f5f5;margin-top:50px}
+.box{background:#fff;border:2px solid #ccc;padding:20px;display:inline-block;box-shadow:0 4px 6px rgba(0,0,0,.1)}
+</style>
+</head>
+<body>
+<div class="box">
+<h1>Welcome!</h1>
+<p>You are visitor number: <b><?php echo $c; ?></b></p>
+</div>
+</body>
+</html>
