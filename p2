@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Time Table</title>
+        <style>
+            <table>{
+                border-collapse:collapse;
+                width:70%;
+            }
+            th,td{
+                border:1px solid black;
+                padding:5px;
+                text-align:center;
+            }
+            th
+            {
+                background: lightgray;
+            }
+            .lab{
+                background: lightpink;
+            }
+            .elective{
+                background: lightgreen;
+            }
+            tfoot{
+                background: lightgray;
+            }
+            </style>
+            </head>
+            <body>
+                <center><h2>TimeTable</h2></center>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day/Time</th>
+                            <th>9-10</th>
+                            <th>10-11</th>
+                            <th>11-12</th>
+                            <th>Lunch</th>
+                            <th>12-1</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mon</td>
+                            <td>Math<1/td>
+                            <td>SEPM</td>
+                            <td class="lab">WT Lab</td>
+                            <td rowspan="5">Break</td>
+                            <td class ="elective">Elective </td>
+                            </tr>
+                            <tr>
+                                <td>Tue</td>
+                                <td class ="elective"</td>
+                                    <td> CN </td><td class="lab"> CN Lab </td>
+                                    <td> AI </td>
+                                </tr>
+                                <tr>
+                                    <td>WED </td>
+                                    <td
